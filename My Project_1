@@ -1,0 +1,11 @@
+Correct_ID = "Admin"
+Correct_PASS = "P1234"
+user_In = 0
+pass_In = 0
+while user_In != Correct_ID or pass_In != Correct_PASS :
+  user_In = input("Username")
+  pass_In = input("Password")
+  if user_In != Correct_ID or pass_In != Correct_PASS:
+    print("User & Pass is wrong")
+  elif user_In == Correct_ID or pass_In == Correct_PASS:
+    print("Correct")
